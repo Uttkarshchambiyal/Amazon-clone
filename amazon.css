@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+
+/* heading of amazon */
+
+.navbar {
+    background-color: black;
+    color: #ffffff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo img {
+    height: 55px;
+    width: 130px;
+    background-size: cover;
+    
+}
+.location {
+   
+}
+.dl{
+    margin-left: 20px;
+    font-size: 10px;
+    color: #cccccc;
+}
+.location1 {
+    font-size: 14px;
+}
+
+.search-bar {
+   display: flex;
+   align-items: center;
+   color: #cccccc;
+   width: 700px;
+   height: 60px;
+   margin-left: 20px;
+   border: none;
+
+}
+.searchamazon {
+    width: 600px;
+    height: 40px;
+     border: none;
+     color: black;
+}
+ 
+.select {
+    background-color: #e7e7e7f4;
+    color: black;
+    height: 40px;
+     border: none;
+       border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+}
+.search-icon {
+    height: 40px;
+    width: 45px;
+     border: none;
+     color: black;
+     background-color: #febd68;
+     font-size: 1.2rem;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+}
+.list {
+    font:14px;
+}
+.hello {
+    font-size: 12px;
+}
+.order {
+    font-size: 12px;
+}
+.ret {
+    font-size: 12px;
+}
+.cart {
+    margin-right: 34px;
+}
+.carttext {
+    font: size 12px; ;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+}
+
+/* second navigation bar*/
+
+.navigation-bar2 {
+    color: rgb(255, 255, 255);
+      background-color:#232F3E;  
+}
+.elements {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+/* hero section */
+
+.hero-section {
+    background-image: url(hero1.jpg);
+    background-size:cover ;
+    height: 260px;
+}
+.layout {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url("secondhero.jpeg");
+}
+.box {
+    height: 420px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box-img {
+    height: 320px;
+    background-size: cover;
+    margin-top: 0.85rem;
+    margin-bottom: 0.85rem;
+}
+.box-content {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+.layout2{
+     display: flex;
+     justify-content: space-evenly;
+     width: 100%;
+     margin-top: 1rem;
+}
+.box {
+    height: 420px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box-img {
+    height: 320px;
+    background-size: cover;
+    margin-top: 0.85rem;
+    margin-bottom: 0.85rem;
+}
+.box-content {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+/* FOOTER FOR AMAZON*/
+.signintitle {
+    height: 150px;
+    width: 1470px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+.headsignin {
+    margin-left: 35%;
+    padding-top: 30px;
+
+}
+.signbutton {
+    margin-left: 610px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 200, 0, 0.942);
+    font-size: 14px;
+      padding-top: 5px;
+}
+.signnew {
+    margin-left: 43%;
+}
+.footer2 {
+     height: 45px; 
+     width: 1470px;
+     background-color: #2f3f52;
+     font-size: 13px;
+     color: #ffffff;
+     align-items: center;
+     padding-top: 25px;
+}
+.footer2 span {
+    margin-left: 700px;
+}
+.footer3 {
+    height: 450px;
+    background-color: #232F3E;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    margin-top: 50px;
+}
+ul a {
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #dddddd;
+}
+.footer4 {
+    color: white;
+    background-color: #232F3E;
+    border-top: 0.5px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    background-image: url("amazonlogopng.png");
+background-size: cover;
+height: 65px; 
+width: 100px;
+}
+.footer5 {
+    height: 80px;
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.line1-5 {
+    padding-top: 30px;
+   margin-right: 5px;
+}
+.line2-5 {
+    padding-top: 5px;
+}
